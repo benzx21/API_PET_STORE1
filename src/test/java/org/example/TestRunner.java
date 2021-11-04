@@ -1,4 +1,4 @@
-package Steps;
+package org.example;
 
 
 import io.cucumber.junit.Cucumber;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/java/Feature"},
+        features = {"src/test/java/Features"},
         tags = "@createNew",
         glue = {"Steps"}
 

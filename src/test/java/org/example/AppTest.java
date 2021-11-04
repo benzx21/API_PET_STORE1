@@ -1,4 +1,4 @@
-package Steps;
+package org.example;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.restassured.path.json.JsonPath;
